@@ -1,0 +1,7 @@
+seaborn
+joblib
+xgboost
+pandas
+numpy
+streamlit
+plotly
