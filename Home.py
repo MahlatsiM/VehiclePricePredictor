@@ -1,6 +1,6 @@
-! pip install seaborn
-! pip install plotly
-! pip install matplotlib
+pip install seaborn
+pip install plotly
+pip install matplotlib
 
 import streamlit as st
 import pandas as pd
