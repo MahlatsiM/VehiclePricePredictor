@@ -27,7 +27,7 @@ def main():
     
     # Load train sets
     X_train_scaled = np.load('X_train_scaled.npy')
-    y_train = np.load('y_train.npy')
+    y_train = np.load('Y_train.npy')
     
     # Function to predict car price and return the interval (97.5)
     def predict_car_price_with_interval(model, input_data, scaler, y_train, X_train_scaled, sample_size, std_dev, confidence=1.96):
