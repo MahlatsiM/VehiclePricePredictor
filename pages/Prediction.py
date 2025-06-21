@@ -49,6 +49,7 @@ def main():
     st.subheader("Estimate a car's resale value based on its key characteristics")
     st.markdown("This tool allows you to input details about a car and predict its market value. "
                 "The price prediction is based on an advanced machine learning model trained on a comprehensive car dataset.")
+    st.info("👈 Use the **sidebar on the left** to enter car details for prediction.")
 
     # Sidebar Navigation
     st.sidebar.title("🔧 Customize Inputs")
