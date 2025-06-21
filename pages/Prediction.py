@@ -6,7 +6,7 @@ import xgboost as xgb
 
 def main():
     # Load your trained model and scaler
-    scaler = joblib.load(r'mount/src/carpricepredictor/scaler.pkl')  # Update with your scaler's path
+    scaler = joblib.load('scaler.pkl')  # Update with your scaler's path
     
     # Load the model later
     model = xgb.XGBRegressor()
